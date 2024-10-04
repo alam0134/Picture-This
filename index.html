@@ -21,25 +21,40 @@
       <source srcset="images/musuem-320_x_320.jpeg 320w,
                       images/museum-640_x_640.jpg 640w,
                       images/museum-960_x_960.jpg 960w"
-                sizes="100vw" 
-                media="(max-width: 479px)">
+                sizes="" 
+                media="(min-width: 320px)">
       <source srcset="images/musuem-480_x_480.jpeg 480w,
                       images/museum-960_x_960.jpg 960w,
                       images/museum-1440_x_1440.jpg 1440w"
-                sizes="100vw" 
+                sizes="" 
                 media="(min-width: 480px)">
        <source srcset="images/musuem-720_x_720.jpeg 720w,
                       images/museum-1440_x_1440.jpeg 1440w,
-                      images/museum-2160_x_2160.jpg 2160w"
-                sizes="100vw" 
-                media="(min-width: 720px)">                   
+                      images/museum-2160_x_2160.jpeg 2160w"
+                sizes="" 
+                media="(min-width: 720px)">
+       <source srcset="images/museum-960_x_960.jpg 960w,
+                       images/museum-1920_x_1920.jpeg 1920w,
+                       images/museum-2880_x_2880.jpeg 2880w"
+                sizes="" 
+                media="(max-width: 959px)">                                    
       <!-- max-width means thses given values will work till 960px no more than that           -->
-      <source srcset="images/museum-480_x_480.jpeg 1x,
-                      images/museum-960_x_960.jpg 2x,
-                      images/museum-1440_x_1440.jpeg 3x"
+      <source srcset="images/museum-480_x_480.jpeg 480w 1x,
+                      images/museum-960_x_960.jpg 960w 2x,
+                      images/museum-1440_x_1440.jpeg 1440w 3x"
                 sizes="50vw"  
-                media="(min-width: 961px)">   
-      <img src="images/museum-320_x_320.jpeg" alt="micture of museum">                                
+                media="(min-width: 960px)">
+       <source srcset="images/museum-640_x_640.jpeg 640w 1x,
+                       images/museum-1280_x_1280.jpeg 1280w 2x,
+                       images/museum-1920_x_1920.jpeg 1920w 3x"
+                sizes="50vw"  
+                media="(min-width: 1280px)">
+        <source srcset="images/museum-800_x_800.jpeg 800w 1x,
+                        images/museum-1600_x_1600.jpeg 1600w 2x,
+                        images/museum-2400_x_2400.jpeg 24000w 3x"
+                sizes="50vw"  
+                media="(min-width: 1600px)">                       
+      <img src="images/museum-320_x_320.jpeg" alt="picture of museum">                                
     </picture>
 
   </header>
