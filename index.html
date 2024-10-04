@@ -22,7 +22,17 @@
                       images/museum-640_x_640.jpg 640w,
                       images/museum-960_x_960.jpg 960w"
                 sizes="100vw" 
-                media="(max-width: 960px)"> 
+                media="(max-width: 479px)">
+      <source srcset="images/musuem-480_x_480.jpeg 480w,
+                      images/museum-960_x_960.jpg 960w,
+                      images/museum-1440_x_1440.jpg 1440w"
+                sizes="100vw" 
+                media="(min-width: 480px)">
+       <source srcset="images/musuem-720_x_720.jpeg 720w,
+                      images/museum-1440_x_1440.jpeg 1440w,
+                      images/museum-2160_x_2160.jpg 2160w"
+                sizes="100vw" 
+                media="(min-width: 720px)">                   
       <!-- max-width means thses given values will work till 960px no more than that           -->
       <source srcset="images/museum-480_x_480.jpeg 1x,
                       images/museum-960_x_960.jpg 2x,
